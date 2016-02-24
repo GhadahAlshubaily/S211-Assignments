@@ -1,0 +1,284 @@
+nav li{
+  display: inline;
+  list-style: none;
+  width: 650px;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li{
+  float: left;
+  height: 60px;
+  width: 160px;
+  text-align: center;
+}
+
+nav li a {
+	color: #78450d;
+	display: inline-block;
+	font: 'OpenSans-Semibold';
+	padding: 36px 10px 0;
+	text-decoration: none;
+	text-shadow: 0 1px #fbc78e;
+}
+#logo {
+	float: left;
+	margin: 27px 0 41px;
+}
+
+input {
+  position: absolute;
+  right: 100px;
+  top: 55px;
+
+}
+
+nav li a:hover, nav li.selected a {
+	color: white;
+	text-shadow: 0 1px #bf6d13;
+}
+
+header{
+  background-image: linear-gradient(#ff9933,#ffa94d);
+  height: 300px;
+}
+
+.text button{
+  border: 200px, 100px, 200px, 100px;
+  border-color: orange;
+  background-color: orange;
+  position: absolute;
+  right: 50px;
+  bottom: .5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.text button p{
+  color: #662900;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+section .cont{
+  width:750px;
+  height:400px;
+  position: absolute;
+  left: 100px;
+  right: 40px;
+  top: 100px;
+  margin-left: 100px;
+
+}
+
+.img img{
+max-width: 100%;
+height: 400px;
+}
+
+.img{
+  width: 60%;
+  height: 400px;
+  float:left;
+}
+
+.text  {
+  width: 40%;
+  height: 400px;
+  float: left;
+  background-color: #040404;
+  color: orange;
+  text-align: left;
+  font-style: italic;
+  font-family: 'Trebuchet MS';
+  font-size: 15px;
+  color:#ff944d
+}
+
+h3{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+.first{
+  width:750px;
+  height:400px;
+  display: inline-block;
+}
+
+.first h4{
+  position: absolute;
+  top: 500px;
+  left: 250px;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  font-family:serif;
+  border-bottom: 1px solid white;
+}
+
+.second{
+  width: 300px;
+  height: 400px;
+  float: left;
+  position: absolute;
+  top: 540px;
+  display: inline-block;
+  margin-left: 100px;
+  color: gray;
+}
+
+.third{
+  width: 310px;
+  height: 400px;
+  float: left;
+  position: absolute;
+  top: 540px;
+  right: 50px;
+  display: inline-block;
+  margin-right: 100px;
+  color: gray;
+}
+
+div .fourth p{
+  position: absolute;
+  top: 670px;
+  left: 100px;
+  color: orange;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+div .fourth a{
+  color: #cc5200;
+  font-weight: bolder;
+}
+
+
+h2{
+
+  position: absolute;
+  top: 500px;
+  left: 80px;
+}
+
+section{
+  width: 960px;
+  margin: 0 auto;
+}
+body{
+  background-image: linear-gradient(#e6e6e6,#d9d9d9);
+  width: 100%
+  margin: 0;
+  font-family: 'OpenSans-Semibold';
+  padding: 0 auto2;
+}
+#pix {
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+}
+#pix li {
+	float: left;
+	width: 300px;
+	margin: 0 auto;;
+	text-align: center;
+  color: gray;
+}
+#pix li p{
+  color:white;
+}
+#pix li a.select {
+	margin: 0 25px;
+}
+
+#pix li button {
+background-color: orange;
+border-radius: 10px;
+
+}
+#pix h3{
+  color: #cc5200;
+}
+
+#footer {
+	background-color: #040404;
+	width: 100%;
+	border-top: 1px solid;
+	position: absolute;
+	left: 0;
+}
+#footer > div {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#links {
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+	margin: 48px 0 36px;
+	padding: 0;
+}
+#links > li {
+	float: left;
+	width: 220px;
+	margin: 0 10px;
+}
+#links h4 {
+	color: #a6a8a3;
+	font: bold 'OpenSans';
+	margin: 0;
+	text-shadow: 0 1px #671515;
+}
+#links > li ul {
+	list-style: none;
+	width: 190px;
+	margin: 0;
+	padding: 0;
+}
+#links > li ul li {
+	border-bottom: 1px solid #262828;
+	margin: 6px 0 0;
+	padding: 0 0 8px;
+}
+#links > li ul li a {
+	color: #eb983e;
+	font: 12px/24px 'OpenSans';
+	text-decoration: none;
+}
+#links > li ul li a:hover {
+	color: #bab9b8;
+}
+#connect a {
+	display: inline-block;
+	height: 24px;
+	padding-left: 30px;
+}
+#connect a.twitter {
+	background-position: -301px -26px;
+}
+#connect a.facebook {
+	background-position: -301px -80px;
+}
+#connect a.googleplus {
+	background-position: -301px -136px;
+}
+#connect a.twitter:hover {
+	background-position: -301px 2px;
+}
+#connect a.facebook:hover {
+	background-position: -301px -52px;
+}
+#connect a.googleplus:hover {
+	background-position: -301px -108px;
+}
+.footnote {
+	clear: both;
+	color: #6c6e69;
+	font: 10px/24px "Trebuchet MS";
+	text-align: center;
+	text-shadow: none;
+}
